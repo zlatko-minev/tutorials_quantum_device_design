@@ -1,3 +1,33 @@
+> ## 📦 This repo has moved
+>
+> The Quantum Device Workshop materials have moved to a dedicated, Dockerized
+> repository:
+>
+> ### 👉 **[quantum-device-consortium/qdw26-workshop-materials](https://github.com/quantum-device-consortium/qdw26-workshop-materials)**
+>
+> The new repo wraps the same 4-notebook progression
+> (`intro_to_layout`, `transmon_resonator`, `qubit_qubit_coupling`,
+> `project`) in a shared `uv` + Docker environment, with JupyterLab /
+> VS Code attach / Brev cloud-instance access paths. It also tracks the
+> upgraded **Quantum Metal v0.7.x** API (lite-by-default install,
+> `qm.view()` headless viewer, friendly missing-dependency errors). See
+> the new repo's README for the full migration story.
+>
+> **This (old) repo will be archived** after the migration is verified.
+>
+> If you need the exact materials used at the QDW 2025 workshop, they
+> are preserved at the tag
+> **[`v2025-workshop`](https://github.com/zlatko-minev/tutorials_quantum_device_design/releases/tag/v2025-workshop)**
+> — pinned to the pre-v0.5 Qiskit Metal era, `pyepr-quantum==0.8.5.7`,
+> `pyaedt==0.6.46`. That tag is the canonical reference for the 2025
+> workshop and won't change.
+>
+> *Original tutorial materials authored by **Murat Can Sarihan**, with
+> content review by **Zlatko Minev**. Migration to maintained workshop
+> infrastructure (Docker + uv + Brev) led by **Shanto Roy** (USC).*
+
+---
+
 # Simulating **Qiskit Metal** Designs with **palace** and **SQDMetal**
 
 This tutorial explores the simulation of [Qiskit Metal](https://github.com/qiskit-community/qiskit-metal)  `design` objects using `palace`, facilitated by `SQDMetal`. The design of quantum devices, the foundation of the quantum ecosystem, is a multi-step process. Qiskit Metal endeavors to simplify and organize this undertaking.
